@@ -10,7 +10,7 @@ translator = string.maketrans(string.punctuation, ' '*len(string.punctuation))
 for line in sys.stdin:
     # remove leading and trailing whitespace, convert to lowercase
     line = line.strip().lower()
-    line - line.translate(translator)
+    line = line.translate(translator)
 
     # split the line into words; splits on any whitespace
     words = line.split()
