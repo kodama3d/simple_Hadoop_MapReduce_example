@@ -2,7 +2,8 @@
 import sys
 import string
 
-stop_words = ['the', 'and']
+stop_words = ['a', 'an', 'and', 'are', 'at', 'be', 'by', 'for', 'from', 'has', 'he', 'in', 'is', 'it', 'its',
+              'of', 'on', 'that', 'the', 'to', 'was', 'were', 'will', 'with']
 
 translator = string.maketrans(string.punctuation, ' '*len(string.punctuation))
 
