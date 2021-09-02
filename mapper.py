@@ -2,8 +2,7 @@
 import sys
 import string
 
-stop_words = ['a', 'an', 'and', 'are', 'at', 'be', 'by', 'for', 'from', 'has', 'he', 'in', 'is', 'it', 'its',
-              'of', 'on', 'that', 'the', 'to', 'was', 'were', 'will', 'with']
+stop_words = ['a', 'an', 'and', 'are', 'at', 'be', 'by', 'for', 'from', 'has', 'he', 'in', 'is', 'it', 'its', 'of', 'on', 'that', 'the', 'to', 'was', 'were', 'will', 'with']
 
 # translator punctuation to whitespace
 # https://stackoverflow.com/questions/34860982/replace-the-punctuation-with-whitespace/34922745
